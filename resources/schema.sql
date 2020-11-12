@@ -26,7 +26,7 @@ CREATE TABLE messages
     status INTEGER REFERENCES status
 );
 
-ALTER TABLE friends RENAME TO fr;
+ALTER TABLE friends RENAME TO fr; -- исправлено ранее, увидела комментарий, после того, как запушила
 CREATE TABLE friends
 (
     id INTEGER PRIMARY KEY AUTOINCREMENT ,
