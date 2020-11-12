@@ -40,7 +40,7 @@ FROM fr;
 
 DROP TABLE fr;
 
-ALTER TABLE messages RENAME TO ms;
+ALTER TABLE messages RENAME TO ms; -- исправлено ранее, увидела комментарий, после того, как запушила
 CREATE TABLE messages
 (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
